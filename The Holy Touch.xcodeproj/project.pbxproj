@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44A56BC21128B0600D6579B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56BB21128B0600D6579B /* AppDelegate.swift */; };
+		A44A56BE21128B0600D6579B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56BD21128B0600D6579B /* ViewController.swift */; };
+		A44A56C121128B0600D6579B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44A56BF21128B0600D6579B /* Main.storyboard */; };
+		A44A56C321128B0700D6579B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44A56C221128B0700D6579B /* Assets.xcassets */; };
+		A44A56C621128B0700D6579B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44A56C421128B0700D6579B /* LaunchScreen.storyboard */; };
+		A44A56D121128B0700D6579B /* The_Holy_TouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56D021128B0700D6579B /* The_Holy_TouchTests.swift */; };
+		A44A56DC21128B0700D6579B /* The_Holy_TouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56DB21128B0700D6579B /* The_Holy_TouchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A44A56CD21128B0700D6579B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44A56B021128B0600D6579B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44A56B721128B0600D6579B;
+			remoteInfo = "The Holy Touch";
+		};
+		A44A56D821128B0700D6579B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44A56B021128B0600D6579B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44A56B721128B0600D6579B;
+			remoteInfo = "The Holy Touch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A44A56B821128B0600D6579B /* The Holy Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Holy Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44A56BB21128B0600D6579B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A44A56BD21128B0600D6579B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A44A56C021128B0600D6579B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A44A56C221128B0700D6579B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A44A56C521128B0700D6579B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A44A56C721128B0700D6579B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44A56CC21128B0700D6579B /* The Holy TouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Holy TouchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44A56D021128B0700D6579B /* The_Holy_TouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Holy_TouchTests.swift; sourceTree = "<group>"; };
+		A44A56D221128B0700D6579B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44A56D721128B0700D6579B /* The Holy TouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Holy TouchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44A56DB21128B0700D6579B /* The_Holy_TouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Holy_TouchUITests.swift; sourceTree = "<group>"; };
+		A44A56DD21128B0700D6579B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A44A56B521128B0600D6579B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44A56C921128B0700D6579B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44A56D421128B0700D6579B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44A56AF21128B0600D6579B = {
+			isa = PBXGroup;
+			children = (
+				A44A56BA21128B0600D6579B /* The Holy Touch */,
+				A44A56CF21128B0700D6579B /* The Holy TouchTests */,
+				A44A56DA21128B0700D6579B /* The Holy TouchUITests */,
+				A44A56B921128B0600D6579B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A44A56B921128B0600D6579B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44A56B821128B0600D6579B /* The Holy Touch.app */,
+				A44A56CC21128B0700D6579B /* The Holy TouchTests.xctest */,
+				A44A56D721128B0700D6579B /* The Holy TouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44A56BA21128B0600D6579B /* The Holy Touch */ = {
+			isa = PBXGroup;
+			children = (
+				A44A56BB21128B0600D6579B /* AppDelegate.swift */,
+				A44A56BD21128B0600D6579B /* ViewController.swift */,
+				A44A56BF21128B0600D6579B /* Main.storyboard */,
+				A44A56C221128B0700D6579B /* Assets.xcassets */,
+				A44A56C421128B0700D6579B /* LaunchScreen.storyboard */,
+				A44A56C721128B0700D6579B /* Info.plist */,
+			);
+			path = "The Holy Touch";
+			sourceTree = "<group>";
+		};
+		A44A56CF21128B0700D6579B /* The Holy TouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A44A56D021128B0700D6579B /* The_Holy_TouchTests.swift */,
+				A44A56D221128B0700D6579B /* Info.plist */,
+			);
+			path = "The Holy TouchTests";
+			sourceTree = "<group>";
+		};
+		A44A56DA21128B0700D6579B /* The Holy TouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A44A56DB21128B0700D6579B /* The_Holy_TouchUITests.swift */,
+				A44A56DD21128B0700D6579B /* Info.plist */,
+			);
+			path = "The Holy TouchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44A56B721128B0600D6579B /* The Holy Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44A56E021128B0700D6579B /* Build configuration list for PBXNativeTarget "The Holy Touch" */;
+			buildPhases = (
+				A44A56B421128B0600D6579B /* Sources */,
+				A44A56B521128B0600D6579B /* Frameworks */,
+				A44A56B621128B0600D6579B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Holy Touch";
+			productName = "The Holy Touch";
+			productReference = A44A56B821128B0600D6579B /* The Holy Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A44A56CB21128B0700D6579B /* The Holy TouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44A56E321128B0700D6579B /* Build configuration list for PBXNativeTarget "The Holy TouchTests" */;
+			buildPhases = (
+				A44A56C821128B0700D6579B /* Sources */,
+				A44A56C921128B0700D6579B /* Frameworks */,
+				A44A56CA21128B0700D6579B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44A56CE21128B0700D6579B /* PBXTargetDependency */,
+			);
+			name = "The Holy TouchTests";
+			productName = "The Holy TouchTests";
+			productReference = A44A56CC21128B0700D6579B /* The Holy TouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A44A56D621128B0700D6579B /* The Holy TouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44A56E621128B0700D6579B /* Build configuration list for PBXNativeTarget "The Holy TouchUITests" */;
+			buildPhases = (
+				A44A56D321128B0700D6579B /* Sources */,
+				A44A56D421128B0700D6579B /* Frameworks */,
+				A44A56D521128B0700D6579B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44A56D921128B0700D6579B /* PBXTargetDependency */,
+			);
+			name = "The Holy TouchUITests";
+			productName = "The Holy TouchUITests";
+			productReference = A44A56D721128B0700D6579B /* The Holy TouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44A56B021128B0600D6579B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Hajj Hackathon";
+				TargetAttributes = {
+					A44A56B721128B0600D6579B = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					A44A56CB21128B0700D6579B = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = A44A56B721128B0600D6579B;
+					};
+					A44A56D621128B0700D6579B = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = A44A56B721128B0600D6579B;
+					};
+				};
+			};
+			buildConfigurationList = A44A56B321128B0600D6579B /* Build configuration list for PBXProject "The Holy Touch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A44A56AF21128B0600D6579B;
+			productRefGroup = A44A56B921128B0600D6579B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A44A56B721128B0600D6579B /* The Holy Touch */,
+				A44A56CB21128B0700D6579B /* The Holy TouchTests */,
+				A44A56D621128B0700D6579B /* The Holy TouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A44A56B621128B0600D6579B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44A56C621128B0700D6579B /* LaunchScreen.storyboard in Resources */,
+				A44A56C321128B0700D6579B /* Assets.xcassets in Resources */,
+				A44A56C121128B0600D6579B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44A56CA21128B0700D6579B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44A56D521128B0700D6579B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A44A56B421128B0600D6579B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44A56BE21128B0600D6579B /* ViewController.swift in Sources */,
+				A44A56BC21128B0600D6579B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44A56C821128B0700D6579B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44A56D121128B0700D6579B /* The_Holy_TouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44A56D321128B0700D6579B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44A56DC21128B0700D6579B /* The_Holy_TouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A44A56CE21128B0700D6579B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44A56B721128B0600D6579B /* The Holy Touch */;
+			targetProxy = A44A56CD21128B0700D6579B /* PBXContainerItemProxy */;
+		};
+		A44A56D921128B0700D6579B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44A56B721128B0600D6579B /* The Holy Touch */;
+			targetProxy = A44A56D821128B0700D6579B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A44A56BF21128B0600D6579B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44A56C021128B0600D6579B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A44A56C421128B0700D6579B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44A56C521128B0700D6579B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A44A56DE21128B0700D6579B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A44A56DF21128B0700D6579B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A44A56E121128B0700D6579B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPHYZJJ42A;
+				INFOPLIST_FILE = "The Holy Touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CA.HW.The-Holy-Touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A44A56E221128B0700D6579B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPHYZJJ42A;
+				INFOPLIST_FILE = "The Holy Touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CA.HW.The-Holy-Touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A44A56E421128B0700D6579B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPHYZJJ42A;
+				INFOPLIST_FILE = "The Holy TouchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CA.HW.The-Holy-TouchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Holy Touch.app/The Holy Touch";
+			};
+			name = Debug;
+		};
+		A44A56E521128B0700D6579B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPHYZJJ42A;
+				INFOPLIST_FILE = "The Holy TouchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CA.HW.The-Holy-TouchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Holy Touch.app/The Holy Touch";
+			};
+			name = Release;
+		};
+		A44A56E721128B0700D6579B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPHYZJJ42A;
+				INFOPLIST_FILE = "The Holy TouchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CA.HW.The-Holy-TouchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Holy Touch";
+			};
+			name = Debug;
+		};
+		A44A56E821128B0700D6579B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPHYZJJ42A;
+				INFOPLIST_FILE = "The Holy TouchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CA.HW.The-Holy-TouchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Holy Touch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A44A56B321128B0600D6579B /* Build configuration list for PBXProject "The Holy Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44A56DE21128B0700D6579B /* Debug */,
+				A44A56DF21128B0700D6579B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44A56E021128B0700D6579B /* Build configuration list for PBXNativeTarget "The Holy Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44A56E121128B0700D6579B /* Debug */,
+				A44A56E221128B0700D6579B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44A56E321128B0700D6579B /* Build configuration list for PBXNativeTarget "The Holy TouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44A56E421128B0700D6579B /* Debug */,
+				A44A56E521128B0700D6579B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44A56E621128B0700D6579B /* Build configuration list for PBXNativeTarget "The Holy TouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44A56E721128B0700D6579B /* Debug */,
+				A44A56E821128B0700D6579B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A44A56B021128B0600D6579B /* Project object */;
+}
