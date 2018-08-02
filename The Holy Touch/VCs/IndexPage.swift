@@ -23,12 +23,25 @@ class IndexPage : UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
+        
+        visitorButton.layer.cornerRadius = visitorButton.frame.size.height/2
+        adminButton.layer.cornerRadius = adminButton.frame.size.height/2
     }
     
     @IBAction func visitorsogin(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc1: Login? = (storyboard.instantiateViewController(withIdentifier: "Login") as? Login)
+        vc1?.loginType = AppConstants.incomingClass.visitorLogin
+        self.navigationController?.pushViewController(vc1!, animated: true)
+
     }
     
     @IBAction func adminLogin(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc1: Login? = (storyboard.instantiateViewController(withIdentifier: "Login") as? Login)
+        vc1?.loginType = AppConstants.incomingClass.adminLogin
+        self.navigationController?.pushViewController(vc1!, animated: true)
+
     }
     
     @objc func checkFirstTimeLogin () {

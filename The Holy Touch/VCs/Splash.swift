@@ -22,14 +22,14 @@ class Splash : UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
-        perform(#selector(self.checkFirstTimeLogin), with: nil, afterDelay: 5.0)
+        perform(#selector(self.toNext), with: nil, afterDelay: 3.0)
         
     }
     
-    @objc func checkFirstTimeLogin () {
+    @objc func toNext () {
         
-        let storyboard = UIStoryboard(name: "Home", bundle: nil)
-        let vc1: IndexPage? = (storyboard.instantiateViewController(withIdentifier: "IndexPage") as? IndexPage)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc1: IndexPage? = (storyboard.instantiateViewController(withIdentifier: "LandingPage") as? IndexPage)
         self.navigationController?.pushViewController(vc1!, animated: true)
 
     }

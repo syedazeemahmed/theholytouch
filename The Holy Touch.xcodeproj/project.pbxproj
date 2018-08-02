@@ -17,6 +17,15 @@
 		A44A56EA21128C3B00D6579B /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56E921128C3B00D6579B /* Splash.swift */; };
 		A44A56EC21128C4D00D6579B /* IndexPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56EB21128C4D00D6579B /* IndexPage.swift */; };
 		A44A56F221128D3C00D6579B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56F121128D3C00D6579B /* Utility.swift */; };
+		A44A56F52112903A00D6579B /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56F42112903A00D6579B /* Footer.swift */; };
+		A44A56F72112906400D6579B /* Footer.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44A56F62112906400D6579B /* Footer.xib */; };
+		A44A56F92112924500D6579B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56F82112924500D6579B /* Login.swift */; };
+		A44A56FB2112942500D6579B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56FA2112942500D6579B /* Constant.swift */; };
+		A44A56FD2112980700D6579B /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56FC2112980700D6579B /* Header.swift */; };
+		A44A56FF2112982200D6579B /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44A56FE2112982200D6579B /* Header.xib */; };
+		A4D7FF9521129B8000B3CF3F /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FF9421129B8000B3CF3F /* UIImageViewExtension.swift */; };
+		A4D7FF9721129CAE00B3CF3F /* AdminHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FF9621129CAE00B3CF3F /* AdminHome.swift */; };
+		A4D7FF9B2112A21C00B3CF3F /* AMScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FF9A2112A21C00B3CF3F /* AMScanViewController.m */; };
 		C7D58147658CFCB9514D45F0 /* Pods_The_Holy_TouchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DE0B6EB8C628582DA731B1 /* Pods_The_Holy_TouchUITests.framework */; };
 		ED07B6D89E58CAF5847A7A63 /* Pods_The_Holy_Touch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FD962CB3B80B4925044E58 /* Pods_The_Holy_Touch.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +67,17 @@
 		A44A56E921128C3B00D6579B /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 		A44A56EB21128C4D00D6579B /* IndexPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPage.swift; sourceTree = "<group>"; };
 		A44A56F121128D3C00D6579B /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		A44A56F42112903A00D6579B /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		A44A56F62112906400D6579B /* Footer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Footer.xib; sourceTree = "<group>"; };
+		A44A56F82112924500D6579B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		A44A56FA2112942500D6579B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A44A56FC2112980700D6579B /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		A44A56FE2112982200D6579B /* Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		A4D7FF9421129B8000B3CF3F /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		A4D7FF9621129CAE00B3CF3F /* AdminHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHome.swift; sourceTree = "<group>"; };
+		A4D7FF982112A21B00B3CF3F /* The Holy Touch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Holy Touch-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4D7FF992112A21C00B3CF3F /* AMScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMScanViewController.h; sourceTree = "<group>"; };
+		A4D7FF9A2112A21C00B3CF3F /* AMScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMScanViewController.m; sourceTree = "<group>"; };
 		A9B88586FDAB2D5E9C99B4FF /* Pods-The Holy Touch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holy Touch.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Holy Touch/Pods-The Holy Touch.release.xcconfig"; sourceTree = "<group>"; };
 		C1FD962CB3B80B4925044E58 /* Pods_The_Holy_Touch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Holy_Touch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D069D26DB5B39763F86965EA /* Pods_The_Holy_TouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Holy_TouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +138,11 @@
 		A44A56BA21128B0600D6579B /* The Holy Touch */ = {
 			isa = PBXGroup;
 			children = (
+				A4D7FF992112A21C00B3CF3F /* AMScanViewController.h */,
+				A4D7FF9A2112A21C00B3CF3F /* AMScanViewController.m */,
+				A4D7FF9321129B7100B3CF3F /* Extension */,
+				A44A56FA2112942500D6579B /* Constant.swift */,
+				A44A56F32112900600D6579B /* HeaderFooter */,
 				A44A56F021128D3100D6579B /* Singleton */,
 				A44A56EF21128D2500D6579B /* VCs */,
 				A44A56BB21128B0600D6579B /* AppDelegate.swift */,
@@ -125,6 +150,7 @@
 				A44A56C221128B0700D6579B /* Assets.xcassets */,
 				A44A56C421128B0700D6579B /* LaunchScreen.storyboard */,
 				A44A56C721128B0700D6579B /* Info.plist */,
+				A4D7FF982112A21B00B3CF3F /* The Holy Touch-Bridging-Header.h */,
 			);
 			path = "The Holy Touch";
 			sourceTree = "<group>";
@@ -152,6 +178,8 @@
 			children = (
 				A44A56E921128C3B00D6579B /* Splash.swift */,
 				A44A56EB21128C4D00D6579B /* IndexPage.swift */,
+				A44A56F82112924500D6579B /* Login.swift */,
+				A4D7FF9621129CAE00B3CF3F /* AdminHome.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -162,6 +190,25 @@
 				A44A56F121128D3C00D6579B /* Utility.swift */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		A44A56F32112900600D6579B /* HeaderFooter */ = {
+			isa = PBXGroup;
+			children = (
+				A44A56F42112903A00D6579B /* Footer.swift */,
+				A44A56FC2112980700D6579B /* Header.swift */,
+				A44A56FE2112982200D6579B /* Header.xib */,
+				A44A56F62112906400D6579B /* Footer.xib */,
+			);
+			path = HeaderFooter;
+			sourceTree = "<group>";
+		};
+		A4D7FF9321129B7100B3CF3F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7FF9421129B8000B3CF3F /* UIImageViewExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		DECDDAA79B18D6B0F73D72F4 /* Pods */ = {
@@ -259,6 +306,7 @@
 				TargetAttributes = {
 					A44A56B721128B0600D6579B = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					A44A56CB21128B0700D6579B = {
 						CreatedOnToolsVersion = 9.4;
@@ -297,6 +345,8 @@
 			files = (
 				A44A56C621128B0700D6579B /* LaunchScreen.storyboard in Resources */,
 				A44A56C321128B0700D6579B /* Assets.xcassets in Resources */,
+				A44A56F72112906400D6579B /* Footer.xib in Resources */,
+				A44A56FF2112982200D6579B /* Header.xib in Resources */,
 				A44A56C121128B0600D6579B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +483,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44A56FD2112980700D6579B /* Header.swift in Sources */,
+				A44A56FB2112942500D6579B /* Constant.swift in Sources */,
 				A44A56F221128D3C00D6579B /* Utility.swift in Sources */,
 				A44A56EA21128C3B00D6579B /* Splash.swift in Sources */,
+				A4D7FF9721129CAE00B3CF3F /* AdminHome.swift in Sources */,
 				A44A56EC21128C4D00D6579B /* IndexPage.swift in Sources */,
+				A4D7FF9521129B8000B3CF3F /* UIImageViewExtension.swift in Sources */,
+				A44A56F92112924500D6579B /* Login.swift in Sources */,
 				A44A56BC21128B0600D6579B /* AppDelegate.swift in Sources */,
+				A4D7FF9B2112A21C00B3CF3F /* AMScanViewController.m in Sources */,
+				A44A56F52112903A00D6579B /* Footer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,15 +667,19 @@
 			baseConfigurationReference = DE5DBD48667FBA35C8271DED /* Pods-The Holy Touch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPHYZJJ42A;
 				INFOPLIST_FILE = "The Holy Touch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CA.HW.The-Holy-Touch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The Holy Touch/The Holy Touch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -629,15 +690,18 @@
 			baseConfigurationReference = A9B88586FDAB2D5E9C99B4FF /* Pods-The Holy Touch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPHYZJJ42A;
 				INFOPLIST_FILE = "The Holy Touch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CA.HW.The-Holy-Touch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The Holy Touch/The Holy Touch-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
