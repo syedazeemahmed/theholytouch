@@ -1,0 +1,117 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Agrume (5.1.0):
+    - SwiftyGif
+  - Cache (4.2.0)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - Hue (3.0.1)
+  - ImagePicker (3.0.0)
+  - Imaginary (3.0.3):
+    - Cache (~> 4.0)
+  - IQKeyboardManager (6.0.3)
+  - JMMaskTextField-Swift (0.1.2)
+  - Lightbox (2.1.2):
+    - Hue (~> 3.0)
+    - Imaginary (~> 3.0)
+  - MapleBacon (5.1.8)
+  - MBProgressHUD (1.1.0)
+  - MKColorPicker (1.2)
+  - Spring (1.0.5)
+  - SwiftyGif (4.1.0)
+  - SwiftyJSON (4.0.0-alpha.1)
+  - SwipeCellKit (2.4.2)
+  - "UIAlertController+Blocks (0.9.2)"
+  - WYPopoverController (0.3.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Agrume (from `https://github.com/JanGorman/Agrume.git`)
+  - ChameleonFramework
+  - Hue
+  - ImagePicker
+  - IQKeyboardManager
+  - JMMaskTextField-Swift
+  - Lightbox
+  - MapleBacon
+  - MBProgressHUD
+  - MKColorPicker
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SwiftyJSON (= 4.0.0-alpha.1)
+  - SwipeCellKit
+  - "UIAlertController+Blocks"
+  - WYPopoverController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Cache
+    - ChameleonFramework
+    - Hue
+    - ImagePicker
+    - Imaginary
+    - IQKeyboardManager
+    - JMMaskTextField-Swift
+    - Lightbox
+    - MapleBacon
+    - MBProgressHUD
+    - MKColorPicker
+    - SwiftyGif
+    - SwiftyJSON
+    - SwipeCellKit
+    - "UIAlertController+Blocks"
+    - WYPopoverController
+
+EXTERNAL SOURCES:
+  Agrume:
+    :git: https://github.com/JanGorman/Agrume.git
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Agrume:
+    :commit: dc024478c21217737e784dc01dd74bf9b30873ad
+    :git: https://github.com/JanGorman/Agrume.git
+  Spring:
+    :commit: c540239f3590bbaf4a35c3959c329dd5ed4e3eee
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Agrume: 97f80b07ddfb2e86fd678e2acd6d71022e045849
+  Cache: f28f8dd64b632155aabf9b3906b036a659048251
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  ImagePicker: 973953c25960fe04729a7082a56194321c6762d2
+  Imaginary: 9b45836a5af881f452a86e0a1215772ae4712d00
+  IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  JMMaskTextField-Swift: c47d4f6a16faa49a1abaa8d3bd59ca0892db0e09
+  Lightbox: 2dc267df8be2285bc7724cb11cbbf4aaaf59dced
+  MapleBacon: 43390c3a22779e88610af4ec43487a0af352a916
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MKColorPicker: 8998b2ab977e4f240fdf254db27a18b810da3cfc
+  Spring: 3c7666eccefdeb87140008dc81043f89f8dbb787
+  SwiftyGif: d36c6dfb52e2ca1e48fe349d225f50ec4123ec85
+  SwiftyJSON: dc88934f85fb50b263b1632b9cbad3402505783e
+  SwipeCellKit: a01c587d6786f514a44eed54261e24eaa9fb4de6
+  "UIAlertController+Blocks": 80e28b92523fb58aba4d1bccec013d5a0b0bddb2
+  WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+
+PODFILE CHECKSUM: 8a6e44c034dcc54f4ba5b3342d3d79f3703f842e
+
+COCOAPODS: 1.5.3

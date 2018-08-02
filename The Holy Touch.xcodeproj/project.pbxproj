@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C7846788B2BFFEADB3A814F /* Pods_The_Holy_TouchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D069D26DB5B39763F86965EA /* Pods_The_Holy_TouchTests.framework */; };
 		A44A56BC21128B0600D6579B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56BB21128B0600D6579B /* AppDelegate.swift */; };
-		A44A56BE21128B0600D6579B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56BD21128B0600D6579B /* ViewController.swift */; };
 		A44A56C121128B0600D6579B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44A56BF21128B0600D6579B /* Main.storyboard */; };
 		A44A56C321128B0700D6579B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44A56C221128B0700D6579B /* Assets.xcassets */; };
 		A44A56C621128B0700D6579B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44A56C421128B0700D6579B /* LaunchScreen.storyboard */; };
 		A44A56D121128B0700D6579B /* The_Holy_TouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56D021128B0700D6579B /* The_Holy_TouchTests.swift */; };
 		A44A56DC21128B0700D6579B /* The_Holy_TouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56DB21128B0700D6579B /* The_Holy_TouchUITests.swift */; };
+		A44A56EA21128C3B00D6579B /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56E921128C3B00D6579B /* Splash.swift */; };
+		A44A56EC21128C4D00D6579B /* IndexPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56EB21128C4D00D6579B /* IndexPage.swift */; };
+		A44A56F221128D3C00D6579B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56F121128D3C00D6579B /* Utility.swift */; };
+		C7D58147658CFCB9514D45F0 /* Pods_The_Holy_TouchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DE0B6EB8C628582DA731B1 /* Pods_The_Holy_TouchUITests.framework */; };
+		ED07B6D89E58CAF5847A7A63 /* Pods_The_Holy_Touch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FD962CB3B80B4925044E58 /* Pods_The_Holy_Touch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39DE0B6EB8C628582DA731B1 /* Pods_The_Holy_TouchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Holy_TouchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		475714198D51587030F8610C /* Pods-The Holy TouchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holy TouchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Holy TouchUITests/Pods-The Holy TouchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6EE4FC6CAAC038543504F6A8 /* Pods-The Holy TouchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holy TouchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Holy TouchTests/Pods-The Holy TouchTests.release.xcconfig"; sourceTree = "<group>"; };
+		89575F0BFAA3B5458C3BEAD4 /* Pods-The Holy TouchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holy TouchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Holy TouchTests/Pods-The Holy TouchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A44A56B821128B0600D6579B /* The Holy Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Holy Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44A56BB21128B0600D6579B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A44A56BD21128B0600D6579B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A44A56C021128B0600D6579B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A44A56C221128B0700D6579B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A44A56C521128B0700D6579B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		A44A56D721128B0700D6579B /* The Holy TouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Holy TouchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44A56DB21128B0700D6579B /* The_Holy_TouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Holy_TouchUITests.swift; sourceTree = "<group>"; };
 		A44A56DD21128B0700D6579B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44A56E921128C3B00D6579B /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		A44A56EB21128C4D00D6579B /* IndexPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexPage.swift; sourceTree = "<group>"; };
+		A44A56F121128D3C00D6579B /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		A9B88586FDAB2D5E9C99B4FF /* Pods-The Holy Touch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holy Touch.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Holy Touch/Pods-The Holy Touch.release.xcconfig"; sourceTree = "<group>"; };
+		C1FD962CB3B80B4925044E58 /* Pods_The_Holy_Touch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Holy_Touch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D069D26DB5B39763F86965EA /* Pods_The_Holy_TouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Holy_TouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D826EC9E65AC5DEF2000A154 /* Pods-The Holy TouchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holy TouchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Holy TouchUITests/Pods-The Holy TouchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE5DBD48667FBA35C8271DED /* Pods-The Holy Touch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holy Touch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Holy Touch/Pods-The Holy Touch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED07B6D89E58CAF5847A7A63 /* Pods_The_Holy_Touch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7846788B2BFFEADB3A814F /* Pods_The_Holy_TouchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D58147658CFCB9514D45F0 /* Pods_The_Holy_TouchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				A44A56CF21128B0700D6579B /* The Holy TouchTests */,
 				A44A56DA21128B0700D6579B /* The Holy TouchUITests */,
 				A44A56B921128B0600D6579B /* Products */,
+				DECDDAA79B18D6B0F73D72F4 /* Pods */,
+				FB4B491FC6ABB38A224B5D2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +118,9 @@
 		A44A56BA21128B0600D6579B /* The Holy Touch */ = {
 			isa = PBXGroup;
 			children = (
+				A44A56F021128D3100D6579B /* Singleton */,
+				A44A56EF21128D2500D6579B /* VCs */,
 				A44A56BB21128B0600D6579B /* AppDelegate.swift */,
-				A44A56BD21128B0600D6579B /* ViewController.swift */,
 				A44A56BF21128B0600D6579B /* Main.storyboard */,
 				A44A56C221128B0700D6579B /* Assets.xcassets */,
 				A44A56C421128B0700D6579B /* LaunchScreen.storyboard */,
@@ -125,6 +147,46 @@
 			path = "The Holy TouchUITests";
 			sourceTree = "<group>";
 		};
+		A44A56EF21128D2500D6579B /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				A44A56E921128C3B00D6579B /* Splash.swift */,
+				A44A56EB21128C4D00D6579B /* IndexPage.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		A44A56F021128D3100D6579B /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				A44A56F121128D3C00D6579B /* Utility.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		DECDDAA79B18D6B0F73D72F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE5DBD48667FBA35C8271DED /* Pods-The Holy Touch.debug.xcconfig */,
+				A9B88586FDAB2D5E9C99B4FF /* Pods-The Holy Touch.release.xcconfig */,
+				89575F0BFAA3B5458C3BEAD4 /* Pods-The Holy TouchTests.debug.xcconfig */,
+				6EE4FC6CAAC038543504F6A8 /* Pods-The Holy TouchTests.release.xcconfig */,
+				D826EC9E65AC5DEF2000A154 /* Pods-The Holy TouchUITests.debug.xcconfig */,
+				475714198D51587030F8610C /* Pods-The Holy TouchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB4B491FC6ABB38A224B5D2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1FD962CB3B80B4925044E58 /* Pods_The_Holy_Touch.framework */,
+				D069D26DB5B39763F86965EA /* Pods_The_Holy_TouchTests.framework */,
+				39DE0B6EB8C628582DA731B1 /* Pods_The_Holy_TouchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A44A56E021128B0700D6579B /* Build configuration list for PBXNativeTarget "The Holy Touch" */;
 			buildPhases = (
+				4C35DAEF95741B33CD41977A /* [CP] Check Pods Manifest.lock */,
 				A44A56B421128B0600D6579B /* Sources */,
 				A44A56B521128B0600D6579B /* Frameworks */,
 				A44A56B621128B0600D6579B /* Resources */,
+				0DD2239CBF53C486D8A93DE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A44A56E321128B0700D6579B /* Build configuration list for PBXNativeTarget "The Holy TouchTests" */;
 			buildPhases = (
+				ADCF4B0BF473043C9887481C /* [CP] Check Pods Manifest.lock */,
 				A44A56C821128B0700D6579B /* Sources */,
 				A44A56C921128B0700D6579B /* Frameworks */,
 				A44A56CA21128B0700D6579B /* Resources */,
@@ -167,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A44A56E621128B0700D6579B /* Build configuration list for PBXNativeTarget "The Holy TouchUITests" */;
 			buildPhases = (
+				6351C3FF2DC1E480B1F8D02F /* [CP] Check Pods Manifest.lock */,
 				A44A56D321128B0700D6579B /* Sources */,
 				A44A56D421128B0700D6579B /* Frameworks */,
 				A44A56D521128B0700D6579B /* Resources */,
@@ -251,12 +317,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DD2239CBF53C486D8A93DE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-The Holy Touch/Pods-The Holy Touch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Agrume/Agrume.framework",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/JMMaskTextField-Swift/JMMaskTextField_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MKColorPicker/MKColorPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/MapleBacon/MapleBacon.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+				"${BUILT_PRODUCTS_DIR}/UIAlertController+Blocks/UIAlertController_Blocks.framework",
+				"${BUILT_PRODUCTS_DIR}/WYPopoverController/WYPopoverController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agrume.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JMMaskTextField_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MKColorPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapleBacon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIAlertController_Blocks.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYPopoverController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Holy Touch/Pods-The Holy Touch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C35DAEF95741B33CD41977A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Holy Touch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6351C3FF2DC1E480B1F8D02F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Holy TouchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADCF4B0BF473043C9887481C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Holy TouchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A44A56B421128B0600D6579B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44A56BE21128B0600D6579B /* ViewController.swift in Sources */,
+				A44A56F221128D3C00D6579B /* Utility.swift in Sources */,
+				A44A56EA21128C3B00D6579B /* Splash.swift in Sources */,
+				A44A56EC21128C4D00D6579B /* IndexPage.swift in Sources */,
 				A44A56BC21128B0600D6579B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +607,7 @@
 		};
 		A44A56E121128B0700D6579B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5DBD48667FBA35C8271DED /* Pods-The Holy Touch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +626,7 @@
 		};
 		A44A56E221128B0700D6579B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B88586FDAB2D5E9C99B4FF /* Pods-The Holy Touch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +645,7 @@
 		};
 		A44A56E421128B0700D6579B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89575F0BFAA3B5458C3BEAD4 /* Pods-The Holy TouchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +667,7 @@
 		};
 		A44A56E521128B0700D6579B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE4FC6CAAC038543504F6A8 /* Pods-The Holy TouchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +689,7 @@
 		};
 		A44A56E721128B0700D6579B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D826EC9E65AC5DEF2000A154 /* Pods-The Holy TouchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +710,7 @@
 		};
 		A44A56E821128B0700D6579B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475714198D51587030F8610C /* Pods-The Holy TouchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

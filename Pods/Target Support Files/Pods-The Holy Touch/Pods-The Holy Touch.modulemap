@@ -1,0 +1,6 @@
+framework module Pods_The_Holy_Touch {
+  umbrella header "Pods-The Holy Touch-umbrella.h"
+
+  export *
+  module * { export * }
+}
