@@ -19,6 +19,7 @@ class AdminHome : UIViewController, AMScanViewControllerDelegate {
     
     @IBOutlet weak var headView: Header!
     
+    @IBOutlet weak var visitorsCount: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +32,10 @@ class AdminHome : UIViewController, AMScanViewControllerDelegate {
         
         // Navigation Adjusments
         self.headView.TitleLabel.text = "Home"
+        
+        self.headView.rightButton.isHidden = false
+        headView.rightButton.addTarget(self, action: #selector(self.addNewSession), for: .touchUpInside)
+        
         let logoutImage = UIImage(named: "logout-icon")
         headView.leftButton.setImage(logoutImage, for: .normal)
         headView.leftButton.addTarget(self, action: #selector(self.logout), for: .touchUpInside)
@@ -50,6 +55,10 @@ class AdminHome : UIViewController, AMScanViewControllerDelegate {
         self.navigationController?.pushViewController(lvc, animated: true)
 
 //        Utility.shared().simpleAlertView(withTitle: "Alert", andMessage: "Feature Under Development")
+    }
+    
+    @objc func addNewSession() {
+        Utility.shared().simpleAlertView(withTitle: "Add New Session", andMessage: "Feature Under Development. Thank you for your patience\n Team Pakistan :)")
     }
     
     @objc func logout() {
@@ -90,8 +99,10 @@ class AdminHome : UIViewController, AMScanViewControllerDelegate {
     
     func validateQR (aScannedValue : String) {
         
-        let param : [AnyHashable: Any] = ["qr_data": aScannedValue]
+        let _ : [AnyHashable: Any] = ["qr_data": aScannedValue]
+        visitorsCount.text = "1 / 100";
         Utility.shared().simpleAlertView(withTitle: "Success", andMessage: "Access Granted")
+        
         // send api call to the server
     }
 }

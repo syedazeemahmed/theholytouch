@@ -12,6 +12,7 @@ import UIKit
 class Header : UIView {
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var TitleLabel: UILabel!
+    @IBOutlet weak var rightButton: UIButton!
     var parentPointer: UIViewController?
     @IBOutlet weak var leftButton: UIButton!
     
@@ -31,6 +32,7 @@ class Header : UIView {
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.TitleLabel.textColor = AppConstants.themeSecondary
+        rightButton.isHidden = true
     }
     
     

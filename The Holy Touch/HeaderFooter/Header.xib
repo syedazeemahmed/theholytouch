@@ -16,6 +16,7 @@
                 <outlet property="TitleLabel" destination="hRV-GY-0Sf" id="r0y-EU-IUe"/>
                 <outlet property="contentView" destination="UCj-3I-djh" id="ZXS-qv-ebT"/>
                 <outlet property="leftButton" destination="YDd-8f-pke" id="Coe-Zh-eof"/>
+                <outlet property="rightButton" destination="uAS-Ov-60w" id="KPK-cM-1iv"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -32,12 +33,17 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAS-Ov-60w">
+                            <rect key="frame" x="897" y="26" width="32" height="32"/>
+                            <state key="normal" image="add-icon"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="hRV-GY-0Sf" firstAttribute="height" secondItem="CP0-sS-qPq" secondAttribute="height" id="7jL-47-Kxk"/>
                         <constraint firstItem="hRV-GY-0Sf" firstAttribute="width" secondItem="CP0-sS-qPq" secondAttribute="width" multiplier="0.7" id="KFq-1Z-Mru"/>
                         <constraint firstItem="hRV-GY-0Sf" firstAttribute="centerY" secondItem="CP0-sS-qPq" secondAttribute="centerY" constant="10" id="Qzc-bH-eWq"/>
+                        <constraint firstAttribute="trailing" secondItem="uAS-Ov-60w" secondAttribute="trailing" constant="8" id="erX-IF-EMr"/>
                         <constraint firstItem="hRV-GY-0Sf" firstAttribute="centerX" secondItem="CP0-sS-qPq" secondAttribute="centerX" id="rpH-hX-oJN"/>
                     </constraints>
                 </view>
@@ -54,6 +60,7 @@
                 <constraint firstItem="YDd-8f-pke" firstAttribute="leading" secondItem="Oga-vz-7eL" secondAttribute="leading" constant="20" id="GGg-Qt-TvW"/>
                 <constraint firstItem="CP0-sS-qPq" firstAttribute="centerX" secondItem="UCj-3I-djh" secondAttribute="centerX" id="Tt5-5h-BCJ"/>
                 <constraint firstItem="YDd-8f-pke" firstAttribute="centerY" secondItem="hRV-GY-0Sf" secondAttribute="centerY" id="WUt-YG-O1q"/>
+                <constraint firstItem="uAS-Ov-60w" firstAttribute="centerY" secondItem="YDd-8f-pke" secondAttribute="centerY" id="cwJ-th-aZg"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="Oga-vz-7eL"/>
@@ -61,6 +68,7 @@
         </view>
     </objects>
     <resources>
+        <image name="add-icon" width="32" height="32"/>
         <image name="back" width="9" height="18"/>
     </resources>
 </document>

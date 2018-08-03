@@ -23,9 +23,15 @@
 		A44A56FB2112942500D6579B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56FA2112942500D6579B /* Constant.swift */; };
 		A44A56FD2112980700D6579B /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A56FC2112980700D6579B /* Header.swift */; };
 		A44A56FF2112982200D6579B /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44A56FE2112982200D6579B /* Header.xib */; };
+		A460853F21141A4E00966B69 /* QRScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A460853E21141A4E00966B69 /* QRScreen.swift */; };
 		A4D7FF9521129B8000B3CF3F /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FF9421129B8000B3CF3F /* UIImageViewExtension.swift */; };
 		A4D7FF9721129CAE00B3CF3F /* AdminHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FF9621129CAE00B3CF3F /* AdminHome.swift */; };
 		A4D7FF9B2112A21C00B3CF3F /* AMScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FF9A2112A21C00B3CF3F /* AMScanViewController.m */; };
+		A4D7FF9D2113628F00B3CF3F /* VisitorLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FF9C2113628F00B3CF3F /* VisitorLogin.swift */; };
+		A4D7FF9F2113787100B3CF3F /* VisitorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FF9E2113787100B3CF3F /* VisitorHome.swift */; };
+		A4D7FFA121138C2C00B3CF3F /* VisitorHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FFA021138C2C00B3CF3F /* VisitorHomeCell.swift */; };
+		A4D7FFA3211393AB00B3CF3F /* Shoaib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FFA2211393AB00B3CF3F /* Shoaib.swift */; };
+		A4D7FFA52113942600B3CF3F /* Shoaib1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7FFA42113942600B3CF3F /* Shoaib1.swift */; };
 		C7D58147658CFCB9514D45F0 /* Pods_The_Holy_TouchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DE0B6EB8C628582DA731B1 /* Pods_The_Holy_TouchUITests.framework */; };
 		ED07B6D89E58CAF5847A7A63 /* Pods_The_Holy_Touch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FD962CB3B80B4925044E58 /* Pods_The_Holy_Touch.framework */; };
 /* End PBXBuildFile section */
@@ -73,11 +79,17 @@
 		A44A56FA2112942500D6579B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A44A56FC2112980700D6579B /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		A44A56FE2112982200D6579B /* Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		A460853E21141A4E00966B69 /* QRScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScreen.swift; sourceTree = "<group>"; };
 		A4D7FF9421129B8000B3CF3F /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		A4D7FF9621129CAE00B3CF3F /* AdminHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHome.swift; sourceTree = "<group>"; };
 		A4D7FF982112A21B00B3CF3F /* The Holy Touch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Holy Touch-Bridging-Header.h"; sourceTree = "<group>"; };
 		A4D7FF992112A21C00B3CF3F /* AMScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMScanViewController.h; sourceTree = "<group>"; };
 		A4D7FF9A2112A21C00B3CF3F /* AMScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMScanViewController.m; sourceTree = "<group>"; };
+		A4D7FF9C2113628F00B3CF3F /* VisitorLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorLogin.swift; sourceTree = "<group>"; };
+		A4D7FF9E2113787100B3CF3F /* VisitorHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorHome.swift; sourceTree = "<group>"; };
+		A4D7FFA021138C2C00B3CF3F /* VisitorHomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorHomeCell.swift; sourceTree = "<group>"; };
+		A4D7FFA2211393AB00B3CF3F /* Shoaib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoaib.swift; sourceTree = "<group>"; };
+		A4D7FFA42113942600B3CF3F /* Shoaib1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoaib1.swift; sourceTree = "<group>"; };
 		A9B88586FDAB2D5E9C99B4FF /* Pods-The Holy Touch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Holy Touch.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Holy Touch/Pods-The Holy Touch.release.xcconfig"; sourceTree = "<group>"; };
 		C1FD962CB3B80B4925044E58 /* Pods_The_Holy_Touch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Holy_Touch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D069D26DB5B39763F86965EA /* Pods_The_Holy_TouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Holy_TouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,9 +189,15 @@
 			isa = PBXGroup;
 			children = (
 				A44A56E921128C3B00D6579B /* Splash.swift */,
+				A4D7FFA2211393AB00B3CF3F /* Shoaib.swift */,
+				A4D7FFA42113942600B3CF3F /* Shoaib1.swift */,
 				A44A56EB21128C4D00D6579B /* IndexPage.swift */,
 				A44A56F82112924500D6579B /* Login.swift */,
 				A4D7FF9621129CAE00B3CF3F /* AdminHome.swift */,
+				A4D7FF9C2113628F00B3CF3F /* VisitorLogin.swift */,
+				A4D7FF9E2113787100B3CF3F /* VisitorHome.swift */,
+				A4D7FFA021138C2C00B3CF3F /* VisitorHomeCell.swift */,
+				A460853E21141A4E00966B69 /* QRScreen.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -486,14 +504,20 @@
 				A44A56FD2112980700D6579B /* Header.swift in Sources */,
 				A44A56FB2112942500D6579B /* Constant.swift in Sources */,
 				A44A56F221128D3C00D6579B /* Utility.swift in Sources */,
+				A4D7FFA121138C2C00B3CF3F /* VisitorHomeCell.swift in Sources */,
 				A44A56EA21128C3B00D6579B /* Splash.swift in Sources */,
+				A460853F21141A4E00966B69 /* QRScreen.swift in Sources */,
+				A4D7FFA3211393AB00B3CF3F /* Shoaib.swift in Sources */,
 				A4D7FF9721129CAE00B3CF3F /* AdminHome.swift in Sources */,
 				A44A56EC21128C4D00D6579B /* IndexPage.swift in Sources */,
+				A4D7FF9D2113628F00B3CF3F /* VisitorLogin.swift in Sources */,
 				A4D7FF9521129B8000B3CF3F /* UIImageViewExtension.swift in Sources */,
 				A44A56F92112924500D6579B /* Login.swift in Sources */,
 				A44A56BC21128B0600D6579B /* AppDelegate.swift in Sources */,
 				A4D7FF9B2112A21C00B3CF3F /* AMScanViewController.m in Sources */,
 				A44A56F52112903A00D6579B /* Footer.swift in Sources */,
+				A4D7FF9F2113787100B3CF3F /* VisitorHome.swift in Sources */,
+				A4D7FFA52113942600B3CF3F /* Shoaib1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

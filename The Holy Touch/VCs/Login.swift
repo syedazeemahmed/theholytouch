@@ -56,13 +56,25 @@ class Login : UIViewController {
     }
     
     @IBAction func loginPressed(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        if (loginType == AppConstants.incomingClass.adminLogin) {
-            let vc1: AdminHome? = (storyboard.instantiateViewController(withIdentifier: "AdminHome") as? AdminHome)
-            self.navigationController?.pushViewController(vc1!, animated: true)
+        let username = usernameField.text
+        let password = passwordField.text
+        
+        if ((username?.isEmpty)! && (password?.isEmpty)!) {
+            Utility.shared().simpleAlertView(withTitle: "Validation Failed!", andMessage: "Please enter username and password")
+        }
+        else if ((username?.isEmpty)! || (password?.isEmpty)!) {
+            Utility.shared().simpleAlertView(withTitle: "Validation Failed!", andMessage: "Both fields are required")
         }
         else {
-            Utility.shared().simpleAlertView(withTitle: "", andMessage: "Take me to Visitor Home")
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            if (loginType == AppConstants.incomingClass.adminLogin) {
+                let vc1: AdminHome? = (storyboard.instantiateViewController(withIdentifier: "AdminHome") as? AdminHome)
+                self.navigationController?.pushViewController(vc1!, animated: true)
+            }
+            else {
+                let vc1: VisitorHome? = (storyboard.instantiateViewController(withIdentifier: "VisitorHome") as? VisitorHome)
+                self.navigationController?.pushViewController(vc1!, animated: true)
+            }
         }
 
     }
